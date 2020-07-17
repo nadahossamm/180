@@ -39,7 +39,7 @@ $row2= mysqli_fetch_array($result2 );
              $sqql2="insert into img (userid,imgid) values('$id',0)";
              mysqli_query($conn, $sqql2);
 
-          header('location:../../180DARGA/html/main.html');
+          header('location:../../180DARGA/html/main.php');
            
 } 
         
