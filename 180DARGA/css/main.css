@@ -1,0 +1,40 @@
+body
+{
+    background-image: url(../../180DARGA/photos/main.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 750px;
+}
+
+
+
+
+div.navbar
+{
+          background-color: unset;
+          padding:20px;
+          padding-top:5px;
+            border:0.5px white solid;
+     
+}
+li ,.f{
+
+    display:inline;
+   }
+     
+    button,select
+    {
+        text-align: center;
+        color: black;
+        font-size: 13px;
+        border-radius: 8px;
+        padding: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 20px;
+        position: relative;
+        left:400px;
+    }
+.f
+{
+    font-size: 20px;
+    color:blue;
+}

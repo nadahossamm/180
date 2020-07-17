@@ -1,0 +1,17 @@
+.pic
+{
+        width: 250px;
+        height: 250px;
+}
+table.display{
+    float:left;
+    border: 5px solid black;
+    margin-top:50px;
+    margin-left:10px;
+    margin-bottom: 10px;  
+ }
+ button
+ {
+    position: relative;
+    left: 20px;
+ }

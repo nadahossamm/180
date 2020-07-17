@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container{
+    margin: 50px ;
+    position: relative;
+    
+    }
+  
+    .slider-container img
+    {
+        position: absolute;
+        opacity: 0;
+   
+        z-index: 1;
+       width: 700px;
+       height: 450px;
+    }
+    .slider-container img.active
+    {
+        opacity: 1;
+    }
+
+    .slider-container, .slider-number
+    {
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        background-color:black;
+        color: blanchedalmond;
+        padding: 5px 10px;
+        font-size: 20px;
+        z-index: 1;
+        border-radius: 6px;
+    }
+    
+    .slider-controls
+    {
+        width:800px;
+        position: relative;
+        top: 520px;
+        left: 105px;
+
+
+    }
+    .slider-controls .prev, .slider-controls .next
+    {
+        background-color: cadetblue;
+        color: crimson;
+        font-size:20px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4px;
+       padding: 5px;
+       user-select: none;
+       width: 11%;
+       
+    }
+    .slider-controls .prev
+    {
+        float: left;
+    }
+    .slider-controls .next
+    {
+        float: initial;
+    }
+    .slider-controls .prev.disabled , .slider-controls .next.disabled
+    
+    {
+       visibility: hidden;
+    }
+   .slider-controls .indicators
+    {
+        width: 60%;
+        float: left;
+    }
+    .slider-controls .indicators ul 
+    {
+        list-style: none;
+        margin: 0;
+        text-align:center;
+    }
+    .slider-controls .indicators ul li
+    {
+        display: inline-block;
+        background-color: darkgray;
+        color: #333;
+        font-weight: bold;
+        height: 25px;
+        width: 28px;
+        border-radius: 4px;
+        margin: 0 2px;
+        line-height: 28px;
+        cursor: pointer;
+    }
+    
+    .slider-controls .indicators ul li.active
+    {
+        background-color: darkgray;
+        color: darkolivegreen;
+    }
+    .writing {
+        position: absolute;
+        right: 100px;
+        width: 470px;
+        height: 200px;
+        border: 3px solid #73AD21;
+        padding: 13px;
+        top: 230px;
+        font-size: 20px;
+    }
+   h1 
+    { 
+        position: relative;
+        left: 300px;
+        font-size: 40px;
+        top: 20px;
+    }
+.back
+{
+    position: relative;
+    left: 600px;
+    top: 430px;
+    font-size: 20px;
+    border-radius: 6px;
+   padding: 8px 30px;
+   background-color: cadetblue;
+
+}
+.markidia
+{
+ 
+    position: absolute;
+    right: 100px;
+    width: 470px;
+    height: 300px;
+    border: 3px solid #73AD21;
+    padding: 13px;
+    top: 165px;
+    font-size: 20px;   
+}
